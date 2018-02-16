@@ -1,0 +1,63 @@
+2018-02-16 08:54:54 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:54:54 INFO  ImpostoBO:16 - Calculando valor do IPVA: 30000.0
+2018-02-16 08:54:54 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:54:54 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:55:47 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:55:47 INFO  ImpostoBO:16 - Calculando valor do IPVA: 30000.0
+2018-02-16 08:55:47 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:55:47 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:56:37 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:56:37 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:56:37 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:56:37 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:56:37 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:56:56 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:56:56 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:56:56 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:56:56 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:56:56 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:56:57 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:56:57 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:56:57 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:56:57 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:56:57 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:56:58 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:56:58 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:56:58 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:56:58 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:56:58 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:56:58 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:56:58 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:56:58 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:56:58 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:56:58 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:56:59 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:56:59 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:56:59 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:56:59 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:56:59 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:57:00 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:57:00 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:57:00 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:57:00 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:57:00 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:57:00 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:57:00 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:57:00 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:57:00 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:57:00 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:57:00 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:57:00 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:57:00 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:57:00 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:57:00 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:57:01 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:57:01 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:57:01 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:57:01 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:57:01 INFO  Teste:26 - Finalizando a aplicação
+2018-02-16 08:57:01 DEBUG Teste:14 - Inicializado a aplicação
+2018-02-16 08:57:01 ERROR ImpostoBO:13 - Valor inválido para calculo do IPVA
+2018-02-16 08:57:01 WARN  Teste:20 - Erro no cálculo do IPVA
+2018-02-16 08:57:01 TRACE ImpostoBO:21 - Calculado o valor do IPTU: 100000.0
+2018-02-16 08:57:01 INFO  Teste:26 - Finalizando a aplicação
