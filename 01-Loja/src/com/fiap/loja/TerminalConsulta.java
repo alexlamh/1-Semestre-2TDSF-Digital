@@ -5,15 +5,21 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Scanner;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.fiap.loja.bo.EstoqueBO;
 import com.fiap.loja.config.PropertySingleton;
 import com.fiap.loja.to.ProdutoTO;
 
 public class TerminalConsulta {
 
+	private static final Logger log = 
+			LoggerFactory.getLogger(TerminalConsulta.class);
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		log.trace("Inicializando o sistema");
 		int codigo = 0;
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 		DecimalFormat df = new DecimalFormat("R$ #,###.00");
@@ -33,11 +39,13 @@ public class TerminalConsulta {
 				System.out.println("Qdt: " + produto.getQuantidade());
 			}else if (codigo != 0){
 				System.out.println("Produto não cadastrado!");
+				log.warn("Produto não cadastrado " + codigo);
 			}else {
 				System.out.println("Tchau!");
 			}
 			
 		} while (codigo != 0);
+		log.debug("Finalizando a aplicação");
 		sc.close();
 	}
 	

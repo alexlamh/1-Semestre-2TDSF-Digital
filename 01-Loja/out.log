@@ -1,0 +1,7 @@
+2018-02-23 08:20:59 TRACE TerminalConsulta:22 - Inicializando o sistema
+2018-02-23 08:21:04 TRACE EstoqueBO:14 - Pesquisando produto de código 401
+2018-02-23 08:21:07 TRACE EstoqueBO:14 - Pesquisando produto de código 402
+2018-02-23 08:21:09 TRACE EstoqueBO:14 - Pesquisando produto de código 456
+2018-02-23 08:21:09 WARN  TerminalConsulta:42 - Produto não cadastrado 456
+2018-02-23 08:21:11 TRACE EstoqueBO:14 - Pesquisando produto de código 0
+2018-02-23 08:21:11 DEBUG TerminalConsulta:48 - Finalizando a aplicação
