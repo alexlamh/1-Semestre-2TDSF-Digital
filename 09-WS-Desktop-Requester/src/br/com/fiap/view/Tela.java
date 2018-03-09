@@ -7,6 +7,8 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Text;
 
 import br.com.fiap.ws.bo.DisciplinaBOStub;
+import br.com.fiap.ws.bo.DisciplinaBOStub.CalcularMedia;
+import br.com.fiap.ws.service.DisciplinaService;
 
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.events.SelectionAdapter;
@@ -88,13 +90,12 @@ public class Tela {
 				float ps = Float.parseFloat(txtPs.getText());
 				
 				try {
-					DisciplinaBOStub stub = new DisciplinaBOStub();
-					
-					float media = 
+					DisciplinaService service = new DisciplinaService();
+					float media = service.calcularMedia(am, nac, ps);
 					//Exibe a média na tela
 					txtMedia.setText(String.valueOf(media));
 				}catch(Exception e1) {
-					e1.printStackTrace();
+					txtMedia.setText(e1.getMessage());
 				}
 			}
 		});
