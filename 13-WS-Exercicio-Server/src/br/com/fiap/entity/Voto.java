@@ -8,8 +8,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 @Entity
 @SequenceGenerator(name="voto",sequenceName="SQ_VOTO",allocationSize=1)
 public class Voto {
@@ -20,7 +18,6 @@ public class Voto {
 	
 	private String candidato;
 	
-	@JsonFormat(pattern="dd/MM/yyyy")
 	private Calendar data;
 
 	public int getCodigo() {
