@@ -6,7 +6,9 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
+import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
+import javax.faces.validator.ValidatorException;
 
 import br.com.fiap.ws.service.FilmeService;
 import br.com.fiap.ws.to.Filme;
@@ -19,13 +21,24 @@ public class FilmeBean {
 	private FilmeService service;
 	
 	private FacesMessage msg;
-
+	
 	@PostConstruct
 	private void init() {
 		filme = new Filme();
 		//Temos que inicializar a data
 		filme.setDataLancamento(Calendar.getInstance());
 		service = new FilmeService();
+	}
+	
+	//Método de validação
+	public void validarTitulo(FacesContext context, 
+								UIComponent component, Object value) {
+		String titulo = value.toString();
+		//Validação qualquer
+		if (titulo.contains("Vingadores")) {
+			throw new ValidatorException(
+					new FacesMessage("Filme não permitido"));
+		}
 	}
 	
 	public List<Filme> getFilmes(){
